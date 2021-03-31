@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+- Developed By Dhruva Kumar Katakam
+-->
 <zabbix_export>
     <version>4.4</version>
     <date>2020-08-21T11:24:39Z</date>
@@ -201,7 +204,7 @@
             <recovery_expression>{WINDOWS SECURITY:eventlog[Security,,,,^4725$,,skip].nodata(60)}&lt;&gt;0 and {WINDOWS SECURITY:eventlog[Security,,,,^4722$,,skip].nodata(60)}=0</recovery_expression>
             <name>Account disabled</name>
             <opdata>A user account was disabled</opdata>
-            <url>http://10.100.1.36/zabbix</url>
+            <url>http://zabbix-serverIP/zabbix</url>
             <priority>WARNING</priority>
         </trigger>
         <trigger>
