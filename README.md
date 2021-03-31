@@ -1,3 +1,9 @@
+# License
+
+MIT License
+
+Copyright (c) 2021 Dhruva Kumar
+
 # Zabbix-Windows-Security-Checks
 
 This repository contains zabbix templates for Windows Active Directory(AD) security checks.
