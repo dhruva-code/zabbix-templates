@@ -12,7 +12,7 @@ This repository contains zabbix templates for Windows Active Directory(AD) secur
 Zabbix mininum version 4.0.x
 
 # Installation
-Download and import the template into your Zabbix server. Insert your zabbix server ip address in the script where it is required.
+Download and import the template into your Zabbix server.
 
 # Description
 
